@@ -58,9 +58,7 @@ class ModelUtils:
 
 
 if __name__ == "__main__":
-    access_token = "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"
-    # model_name = "mistralai/Mixtral-8x22B-Instruct-v0.1"
-    # model_name = "TheBloke/Llama-2-7B-Chat-GGUF"
+    access_token = ""
     model_name = "mistral-community/Mistral-7B-v0.2"
     model_util = ModelUtils(model_name, access_token)
     model_util.set_model_details()
